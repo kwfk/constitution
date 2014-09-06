@@ -1,8 +1,13 @@
-Amendment 2
+# Amendment 2
+
 Drafted: Kevin K. Gong
+
 Proposed: -
+
 Proposed by: -
+
 Ratified: 2013.11.10
+
 Votes: -
 
 #### Pretext

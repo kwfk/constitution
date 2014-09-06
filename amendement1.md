@@ -1,8 +1,12 @@
 # Amendment 1
 Drafted: Jae Young Ryoo
+
 Proposed: -
+
 Proposed by: Executive Committee with 5/5 votes
+
 Ratified: 2013.04.02
+
 Votes: 22 Total Membership, 17 Yes, 1 No
 
 #### Text
