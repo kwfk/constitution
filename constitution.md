@@ -121,16 +121,16 @@ The Ratification of the five founding members of Blueprint shall be sufficient f
 Done in convention by the unanimous consent of the founding members present the third day of November in the year two thousand and twelve. In witness whereof we have hereunto subscribed our Names,
 
 Jae Young Ryoo, President
-![Jay's Signature](signatures_jay.png?raw=true)
+![Jay's Signature](signatures/signatures_jay.png?raw=true)
 
 Kevin Kaiwen Gong, VP of Operations
-![Kevin's Signature](signatures_kevin.png?raw=true)
+![Kevin's Signature](signatures/signatures_kevin.png?raw=true)
 
 Kenneth Gao, VP of Projects
-![Kenneth's Signature](signatures_kenneth.png?raw=true)
+![Kenneth's Signature](signatures/signatures_kenneth.png?raw=true)
 
 Noel Moldvai, VP of Technology
-![Noel's Signature](signatures_noel.png?raw=true)
+![Noel's Signature](signatures/signatures_noel.png?raw=true)
 
 Shirley Liu, VP of Marketing and Finance
-![Shirley's Signature](signatures_shirley.png?raw=true)
+![Shirley's Signature](signatures/signatures_shirley.png?raw=true)
