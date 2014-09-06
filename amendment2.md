@@ -16,7 +16,7 @@ This amendment involves the restructuring of the Executive Team positions, as th
 
 #### Text
 
-Section 3: Internal Vice President
+#### Section 3: Internal Vice President
 1. The Internal Vice President shall serve as the director and manager of social and professional activities that are open exclusively to Blueprint membership and its alumni.
 2. No person shall be appointed to the office of the Internal Vice President more than twice.
 3. The Internal Vice President shall be responsible for management of the budget, distributions of funds, and fundraising.
@@ -25,7 +25,8 @@ Section 3: Internal Vice President
 6. The Internal Vice President shall assume the duties of the President in the event of the resignation, recall, or temporary or permanent disability of the President to perform his/her duties, until such time as a replacement is selected or elected.
 7. The Internal Vice President shall, with the consent of the Executive Committee, create chair positions in order to accomplish the appointed tasks. Chairs are considered active members but not members of the Executive Committee. The appointment, selection, and management of those chairs are the sole responsibility of the Internal Vice President.
 8. The Internal Vice President shall be responsible for carrying out any other duties as consented upon by the Executive Committee.
-Section 4: External Vice President
+
+#### Section 4: External Vice President
 1. The External Vice President shall serve as the director and manager of social, professional, and intersocietal activities that Blueprint hosts for or conducts with other organizations. 
 2. No person shall be appointed to the office of the External Vice President more than twice.
 3. The External Vice President shall be the main curator of the brand of Blueprint. (S)he shall keep the brand and the branding guideline current and useful. The enforcement and protection of the brand of Blueprint is, with the help from the Executive Committee, the responsibility of the External Vice President.
