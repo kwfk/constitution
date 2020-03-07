@@ -1,7 +1,8 @@
-# Constitution
-
-**Blueprint**
-Ratified: March 20, 2017
+<center>
+    <h1>CONSTITUTION</h1>
+    <h3>BLUEPRINT</h3>
+    <p>Ratified: March 20, 2017</p>
+</center>
 
 ## I. Name
 
@@ -22,18 +23,23 @@ We the members of Blueprint pursue our mission with the vision of a world where 
 We, the members of Blueprint, shall be upheld to the following organizational values. These values further embody our mission, vision, and culture, determine how we make decisions, and reflect how we behave and act, collectively and individually.
 
 **Mission First:**
+
 We as Blueprint members ultimately unify under one goal -  achieving our mission. We place the interests of the people and partners we serve above our own. Our primary measure of success is the amount of positive impact we create through our work.
 
 **Perpetual Growth:**
+
 We as Blueprint members value the academic, social, and personal growth of our peers. We constantly seek to perpetuate the cycle of learning and teaching, for our benefit and for others’. We strive to offer a helping hand in times of need and push each other to succeed.
 
 **Cherish Each Other:**
+
 We as Blueprint members seek to cherish our time spent together. We develop meaningful relationships that extend well beyond the scope of the organization. We value each other as individuals and appreciate our differences.
 
 **Always Innovate:**
+
 We as Blueprint members recognize that change is both inevitable and necessary. We are committed to innovate and emphasize effective solutions as needed in order to remain relevant - nothing is sacred. We welcome new ideas and diverse thinking.
 
 **Be Humble:**
+
 We as Blueprint members strive to remain humble, accept our imperfections, and be receptive to feedback. We approach challenges with an open mind and remember that anyone can pursue social good, not just Blueprint. 
 
 ## III. Membership
