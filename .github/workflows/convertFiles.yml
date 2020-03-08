@@ -8,10 +8,12 @@ jobs:
   check_change:
     runs-on: ubuntu-18.04
     steps:
-      - uses: lots0logs/gh-action-get-changed-files@2.0.6
-        with: 
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-      - run: ls
+      - uses: trilom/file-changes-action@latest
+        # with: 
+        #   github_token: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          cat $HOME/files_modified.json
+          '${{ steps.file_changes.outputs.files_modified}}'
   # convert_constitution:
   #   needs: check_change
   #   runs-on: ubuntu-18.04
