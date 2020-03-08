@@ -8,9 +8,8 @@ jobs:
   check_change:
     runs-on: ubuntu-18.04
     steps:
+      - id: file_changes
       - uses: trilom/file-changes-action@v1
-        with: 
-          github_token: ${{ secrets.FILE_CHANGE_TOKEN }}
       - run: |
           cat $HOME/files_modified.json
           '${{ steps.file_changes.outputs.files_modified}}'
