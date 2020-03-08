@@ -12,7 +12,7 @@
 </style>
 </details>
 
-# CONSTITUTION
+# CONSTITUTION 
 
 <div class="subtitle">
 <strong>BLUEPRINT</strong><br>
