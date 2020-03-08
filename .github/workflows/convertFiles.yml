@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - id: file_changes
-        uses: trilom/file-changes-action@v1.1.1
+        uses: trilom/file-changes-action@v1.2.0
       - run: |
           cat $HOME/files_modified.json
           '${{ steps.file_changes.outputs.files_modified}}'
