@@ -1,3 +1,4 @@
+<details><summary>Styles</summary>
 <style>
     body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -9,6 +10,7 @@
         text-align: center;
     }
 </style>
+</details>
 
 # CONSTITUTION
 
