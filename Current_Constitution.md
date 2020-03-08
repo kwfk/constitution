@@ -1,14 +1,27 @@
-<center>
-    <h1>CONSTITUTION</h1>
-    <h3>BLUEPRINT</h3>
-    <p>Ratified: March 20, 2017</p>
-</center>
+<style>
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h1 {
+        text-align: center;
+    }
+    .subtitle {
+        text-align: center;
+    }
+</style>
 
-## I. Name
+# CONSTITUTION
+
+<div class="subtitle">
+<strong>BLUEPRINT</strong><br>
+Ratified: March 30, 2017
+</div>
+
+## I. NAME
 
 This Constitution recognizes the official name of the organization of which it represents as "Blueprint". This Constitution recognizes that the organization may also be named under "Blueprint, Technology for Nonprofits".
 
-## II. Purpose
+## II. PURPOSE
 
 ### Mission
 
@@ -42,14 +55,14 @@ We as Blueprint members recognize that change is both inevitable and necessary. 
 
 We as Blueprint members strive to remain humble, accept our imperfections, and be receptive to feedback. We approach challenges with an open mind and remember that anyone can pursue social good, not just Blueprint. 
 
-## III. Membership
+## III. MEMBERSHIP
 
 1. Only currently registered students, faculty, and staff may be active members in a registered student organization. Only active members may vote or hold office.
 2. We will not haze according to California State Law. We will not restrict membership based upon race, color, national origin, religion, sex, gender identity, pregnancy (including pregnancy, childbirth, and medical conditions related to pregnancy or childbirth), physical or mental disability, medical condition (cancer related or genetic characteristics), ancestry, marital status, age, sexual orientation, citizenship, or service in the uniformed services (including membership, application for membership, performance of service, application for service, or obligation for service in the uniformed services.)
 3. The Executive Committee determines the terms of membership and enacts them through the bylaws.
 4. The Executive Committee has the ability to punish its members for disorderly behavior, and, with a unanimous vote, expel a member.
 
-## IV. Officers & Elections
+## IV. OFFICERS & ELECTIONS
 
 ### 1. Executive Committee
 
@@ -105,7 +118,7 @@ We as Blueprint members strive to remain humble, accept our imperfections, and b
 3. During elections, eligible general members will vote. Eligibility will be determined by the Executive Committee. Elections shall occur during general meeting only with a full quorum of the eligible voting membership.
 4. The Executive Committee shall determine the procedures of nomination and campaign in the bylaws.
 
-## V. Meetings
+## V. MEETINGS
 
 ### 1. General Member Meetings
 
@@ -122,19 +135,19 @@ We as Blueprint members strive to remain humble, accept our imperfections, and b
 1. Special emergency meetings shall be called on by the President of Blueprint for Executive Committee meetings.
 2. Special emergency meetings shall, with three-fifths approval of the Executive Committee, be called on by the President of Blueprint for general membership meetings.
 
-## VI. Constitutional Amendments
+## VI. CONSTITUTIONAL AMENDMENTS
 
 1. The Executive Committee, whenever four-fifths of its members shall deem it necessary, shall propose Amendments to this Constitution, or, on the application of two-thirds of the total membership shall call a convention for proposing Amendments, which, in either case, shall be valid to all intents and purposes, as part of this Constitution, when ratified by three fourths of the total membership.
 2. All amendments, additions or deletions to this document must be filed with the LEAD Center in 432 Eshleman Hall.
 
-## VII. Dissolution
+## VII. DISSOLUTION
 
 1. The Executive Committee, whenever all of its members shall deem it necessary, shall propose the dissolution of this organization and Constitution. The dissolution shall be valid to all intents and purposes when ratified by all members of the Executive Committee and three-fourths of the non-executive membership.
 2. If the organization is ASUC or GA Sponsored, all unspent ASUC funds shall return to the ASUC; all Graduate Assembly funds shall return to the Graduate Assembly. If the organization is defunct for five (5) or more years, any privately obtained funds (including any funds left in miscellaneous accounts) shall be donated to the following nonprofit organization: Watsi.
 
 In the event that the designated nonprofit organization no longer exists or has ceased to be a nonprofit, then the unspent funds shall be donated to the ASUC.
 
-## VIII. Supremacy & Oaths
+## VIII. SUPREMACY & OATHS
 
 ### 1. Supremacy
 
