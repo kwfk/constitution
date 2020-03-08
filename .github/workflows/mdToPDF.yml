@@ -27,6 +27,7 @@ jobs:
           branch: ${{ github.head_ref }}
       - name: Exit
         run: bash --noprofile --norc -eo pipefail {0}
+        shell: bash
       # - uses: actions/upload-artifact@master
       #   with:
       #     name: output
