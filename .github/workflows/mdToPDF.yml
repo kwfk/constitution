@@ -26,7 +26,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.head_ref }}
       - name: Exit
-        run: sh -e {0}
+        run: bash --noprofile --norc -eo pipefail {0}
       # - uses: actions/upload-artifact@master
       #   with:
       #     name: output
