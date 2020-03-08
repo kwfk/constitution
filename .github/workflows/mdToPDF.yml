@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: docker://pandoc/latex:2.9
         with: # needs a README in your repo root!
-          args: "-f markdown -t pdf Current_Constitution.md"
+          args: "--standalone --output=README.pdf README.md"
