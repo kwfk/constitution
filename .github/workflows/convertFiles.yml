@@ -1,0 +1,64 @@
+name: Convert Markdown to PDF
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  check_change:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: lots0logs/gh-action-get-changed-files@2.0.6
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - run: ls
+  # convert_constitution:
+  #   needs: check_change
+  #   runs-on: ubuntu-18.04
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #       with:
+  #         ref: ${{ github.event.pull_request.head.ref }}
+  #     - name: Prepare to Convert
+  #       run: sed "1s/#/%/; 2d; 3s/^/% /" Current_Constitution.md > convert_constitution.md
+  #     - name: Convert file
+  #       uses: docker://pandoc/latex:2.9
+  #       with:
+  #         args: "--standalone --output=Current_Constitution.pdf convert_constitution.md"
+  #     - name: Remove temp file
+  #       run: rm -f convert_constitution.md
+  #     - name: Commit files
+  #       run: |
+  #         git config --local user.email "action@github.com"
+  #         git config --local user.name "GitHub Action"
+  #         git commit -m "Update Constitution PDF" -a
+  #     - name: Push changes
+  #       uses: ad-m/github-push-action@master
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         branch: ${{ github.head_ref }}
+  # convert_bylaws:
+  #   needs: check_change
+  #   runs-on: ubuntu-18.04
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #       with:
+  #         ref: ${{ github.event.pull_request.head.ref }}
+  #     - name: Prepare to Convert
+  #       run: sed "1s/#/%/; 2d; 3s/^/% /" Current_Bylaws.md > convert_bylaws.md
+  #     - name: Convert file
+  #       uses: docker://pandoc/latex:2.9
+  #       with:
+  #         args: "--standalone --output=Current_Bylaws.pdf convert_bylaws.md"
+  #     - name: Remove temp file
+  #       run: rm -f convert_bylaws.md
+  #     - name: Commit files
+  #       run: |
+  #         git config --local user.email "action@github.com"
+  #         git config --local user.name "GitHub Action"
+  #         git commit -m "Update Bylaws PDF" -a
+  #     - name: Push changes
+  #       uses: ad-m/github-push-action@master
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         branch: ${{ github.head_ref }}
