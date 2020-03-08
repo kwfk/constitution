@@ -11,11 +11,20 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - run: mkdir output
-      - uses: docker://pandoc/latex:2.9
-        with: # needs a README in your repo root!
-          args: "--standalone --output=output/Current_Constitution.pdf Current_Constitution.md"
-      - uses: actions/upload-artifact@master
+      - name: Convert file
+        uses: docker://pandoc/latex:2.9
         with:
-          name: output
-          path: output
+          args: "--standalone --output=Current_Constitution.pdf Current_Constitution.md"
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - uses: actions/upload-artifact@master
+      #   with:
+      #     name: output
+      #     path: output

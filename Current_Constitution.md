@@ -1,23 +1,8 @@
-<details><summary>Styles</summary>
-<style>
-    body {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    h1 {
-        text-align: center;
-    }
-    .subtitle {
-        text-align: center;
-    }
-</style>
-</details>
-
 # CONSTITUTION 
 
-<div class="subtitle">
-<strong>BLUEPRINT</strong><br>
+**BLUEPRINT**
+
 Ratified: March 30, 2017
-</div>
 
 ## I. NAME
 
