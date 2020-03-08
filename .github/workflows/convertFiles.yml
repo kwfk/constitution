@@ -1,6 +1,7 @@
 name: Convert Markdown to PDF
 
 on:
+  push:
   pull_request:
     branches: [ master ]
 
@@ -8,9 +9,11 @@ jobs:
   check_change:
     runs-on: ubuntu-18.04
     steps:
-      - id: file_changes
-        uses: trilom/file-changes-action@v1.2.0
-      - run: cat $HOME/files_modified.json
+      - uses: trilom/file-changes-action@v1.2.0
+      - uses: actions/upload-artifact@v1
+        with:
+          name: check-change
+          path: $HOME
       # - run: |
       #     cat $HOME/files_modified.json
       #     '${{ steps.file_changes.outputs.files_modified}}'
