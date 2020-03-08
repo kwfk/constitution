@@ -11,15 +11,19 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.event.pull_request.head.ref }}
+      - name: Prepare to Convert
+        run: sed "1s/#/%/; 2d; 3s/^/% /" Current_Constitution.md > convert.md
       - name: Convert file
         uses: docker://pandoc/latex:2.9
         with:
-          args: "--standalone --output=Current_Constitution.pdf Current_Constitution.md"
+          args: "--standalone --output=Current_Constitution.pdf convert.md"
+      - name: Remove temp file
+        run: rm -f convert.md
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Add changes" -a
+          git commit -m "Update Constitution PDF" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
