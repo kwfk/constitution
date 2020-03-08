@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: trilom/file-changes-action@v1
-        # with: 
-        #   github_token: ${{ secrets.GITHUB_TOKEN }}
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           cat $HOME/files_modified.json
           '${{ steps.file_changes.outputs.files_modified}}'
