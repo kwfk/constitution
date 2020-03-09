@@ -17,6 +17,7 @@ jobs:
       - name: Prepare to Convert
         run: |
           sed "1s/#/%/; 2d; 3s/^/% /" Current_Constitution.md > convert_constitution.md
+          sed "1s/#/%/; 2d; 3s/^/% /" Current_Bylaws.md > convert_bylaws.md
       - name: Convert Constitution
         uses: docker://pandoc/latex:2.9
         with:
