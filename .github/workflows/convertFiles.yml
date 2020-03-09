@@ -1,13 +1,11 @@
-name: Convert Constitution Markdown to PDF
+name: Convert Markdown to PDF
 
 on:
-  # push:
-  #   paths:
-  #     - 'Current_Constitution.md'
   pull_request:
     paths:
       - 'Current_Constitution.md'
-  #   branches: [ master ]
+      - 'Current_Bylaws.md'
+    branches: [ master ]
 
 jobs:
   convert:
@@ -19,17 +17,21 @@ jobs:
       - name: Prepare to Convert
         run: |
           sed "1s/#/%/; 2d; 3s/^/% /" Current_Constitution.md > convert_constitution.md
-      - name: Convert file
+      - name: Convert Constitution
         uses: docker://pandoc/latex:2.9
         with:
           args: "--standalone --output=Current_Constitution.pdf convert_constitution.md"
+      - name: Convert Bylaws
+        uses: docker://pandoc/latex:2.9
+        with:
+          args: "--standalone --output=Current_Bylaws.pdf convert_bylaws.md"
       - name: Remove temp file
-        run: rm -f convert_constitution.md
+        run: rm -f convert_constitution.md convert_bylaws.md
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Update Constitution PDF" -a
+          git commit -m "Update PDFs" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
