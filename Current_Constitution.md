@@ -1,8 +1,6 @@
-# CONSTITUTION 
+# BLUEPRINT CONSTITUTION
 
-**BLUEPRINT**
-
-Ratified: March 30, 2017
+Ratified: March 30, 2017asdf
 
 ## I. NAME
 
