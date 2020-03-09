@@ -1,7 +1,10 @@
 name: Convert Constitution Markdown to PDF
 
 on:
-  push:
+  # push:
+  #   paths:
+  #     - 'Current_Constitution.md'
+  pull_request:
     paths:
       - 'Current_Constitution.md'
   #   branches: [ master ]
@@ -11,8 +14,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-        # with:
-        #   ref: ${{ github.event.pull_request.head.ref }}
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
       - name: Prepare to Convert
         run: |
           sed "1s/#/%/; 2d; 3s/^/% /" Current_Constitution.md > convert_constitution.md
@@ -31,7 +34,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: ${{ github.head_ref }}
   # convert_bylaws:
   #   needs: check_change
   #   runs-on: ubuntu-18.04

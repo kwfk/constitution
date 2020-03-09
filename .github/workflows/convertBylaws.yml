@@ -1,7 +1,10 @@
 name: Convert Bylaws Markdown to PDF
 
 on:
-  push:
+  # push:
+  #   paths:
+  #     - 'Current_Bylaws.md'
+  pull_request:
     paths:
       - 'Current_Bylaws.md'
 jobs:
@@ -9,8 +12,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-        # with:
-        #   ref: ${{ github.event.pull_request.head.ref }}
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
       - name: Prepare to Convert
         run: sed "1s/#/%/; 2d; 3s/^/% /" Current_Bylaws.md > convert_bylaws.md
       - name: Convert file
@@ -28,4 +31,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: ${{ github.head_ref }}
