@@ -3,7 +3,7 @@ name: Convert Bylaws Markdown to PDF
 on:
   push:
     paths:
-      - 'Current_Bylaws.md' 
+      - 'Current_Bylaws.md'
 jobs:
   convert:
     needs: check_change
