@@ -1,6 +1,6 @@
 # BYLAWS OF BLUEPRINT
 
-Ratified: April 6, 2017
+Ratified: April 6, 2017asdf
 
 ## I. ELECTIONS
 
