@@ -1,6 +1,6 @@
 # The Constitution of Blueprint, Technology for Non-Profits
 
-The documents `Current_Constitution.md` and `Current_Bylaws.md` shall be the source of truth for Blueprint's Constitution and Bylaws. Should there be any discrepancies between the markdown and PDF versions, the markdown version should be referenced.
+The documents [`Current_Constitution.md`](Current_Constitution.md) and [`Current_Bylaws.md`](Current_Bylaws.md) shall be the source of truth for Blueprint's Constitution and Bylaws. Should there be any discrepancies between the markdown and PDF versions, the markdown version should be referenced.
 
 ## Pull Requests
 

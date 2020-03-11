@@ -51,8 +51,8 @@ We as Blueprint members strive to remain humble, accept our imperfections, and b
 
 ### 1. Executive Committee
 
-1. The Executive Committee shall be composed of a President, Internal Vice President, External Vice President, Vice President of Projects and Vice President of Technology chosen at the end of the previous semester by election from the general membership.
-2. Consent of the Executive Committee is when four-fifths of its members agree. The quorum for decision making is four.
+1. The Executive Committee shall be composed of a President, Internal Vice President, External Vice President, Vice President of Projects, Vice President of Technology, and Vice President of Design chosen at the end of the previous semester by election from the general membership.
+2. Consent of the Executive Committee is when two-thirds of its members agree. The quorum for decision making is five.
 3. When vacancies happen in the Executive Committee, the Executive Committee is responsible to fill such vacancies. When vacancies happen in project groups, the Executive Committee is responsible to fill such vacancies.
 4. Each member of the Executive Committee shall be responsible for carrying out any duties apart from those below as consented upon by the Executive Committee.
 5. A member of the Executive Committee may only be appointed to the same position more than twice if they are elected unopposed.
@@ -96,7 +96,13 @@ We as Blueprint members strive to remain humble, accept our imperfections, and b
 2. The Vice President of Technology is the principle advisor and resource of technology for project groups. The Vice President of Technology shall appoint advisors as necessary for project groups.
 3. The Vice President of Technology is responsible for maintaining and making available all documentation necessary for the functions of Blueprint. This includes documentation for project development, Blueprint history and the bylaws.
 
-### 7. Elections
+### 7. Vice President of Design
+
+1. The Vice President of Design is responsible for fostering design thinking and ensuring design processes within Blueprint's project teams.
+2. The Vice President of Design is the principal advisor and resource of design for project groups. 
+3. The Vice President of Design shall, with the advice and consent of the Executive Committee, determine the designer application process by the second week of the semester.
+
+### 8. Elections
 
 1. Every semester, an election must occur to determine the Executive Committee for the following term.
 2. Prior to elections, the Executive Committee shall survey the general membership for nominations. A nomination is only invalidated if the nominee refuses the nomination.
@@ -122,7 +128,7 @@ We as Blueprint members strive to remain humble, accept our imperfections, and b
 
 ## VI. CONSTITUTIONAL AMENDMENTS
 
-1. The Executive Committee, whenever four-fifths of its members shall deem it necessary, shall propose Amendments to this Constitution, or, on the application of two-thirds of the total membership shall call a convention for proposing Amendments, which, in either case, shall be valid to all intents and purposes, as part of this Constitution, when ratified by three fourths of the total membership.
+1. The Executive Committee, whenever two-thirds of its members shall deem it necessary, shall propose Amendments to this Constitution, or, on the application of two-thirds of the total membership shall call a convention for proposing Amendments, which, in either case, shall be valid to all intents and purposes, as part of this Constitution, when ratified by three-fourths of the total membership.
 2. All amendments, additions or deletions to this document must be filed with the LEAD Center in 432 Eshleman Hall.
 
 ## VII. DISSOLUTION
@@ -146,8 +152,8 @@ All members of Blueprint shall be bound by contract and oath to support this Con
 
 1. All procedures and operations specified by the Constitution may not be changed except by constitutional amendment. All procedures and operations not specified by the Constitution that the Executive Committee deems necessary for current and future members to abide by may be determined by the Executive Committee through the bylaws.
 2. The bylaws must be made readily available to the general membership through permanent and accessible documentation. This documentation should record both the current and past bylaws.
-3. A four-fifths majority of the Executive Committee is necessary to enact a bylaw.
-4. A four-fifths majority of the Executive Committee is necessary to overturn a bylaw.
+3. A two-thirds majority of the Executive Committee is necessary to enact a bylaw.
+4. A two-thirds majority of the Executive Committee is necessary to overturn a bylaw.
 5. Any enacted or overturned bylaw must be presented at the soonest general meeting. Changes made to the bylaws must be reflected in the documentation within 24 hours.
 
 ### 4. Ratification
