@@ -36,8 +36,9 @@ Ratified: April 6, 2017
 
 ### 2. Transferring Teams
 
-1. If a member on the External Team wishes to become a Developer or if a Developer wishes to become a member on the External Team, then he or she must reapply through the normal recruiting process of the desired role.
-2. In the scenario in which a transferring member is not accepted through the normal recruitment process of the role he or she desires, then he or she has the opportunity to take up a complementary role in Blueprint as defined in Section 3 Complementary Roles.
+1. If a member wants to switch to a role they have not previously held (between External member, developer, and designer), they must complete a shortened application process for that role at the end of the previous semester.
+2. The internal application process will gauge the skillsets that vary between the previous and desired roles and will be managed by the incoming executive team.
+3. In the scenario in which a transferring member is not accepted to the role they desire, then they have the option to return to their previous role or take up a complementary role in Blueprint as defined in Section 3 Complementary Roles.
 
 ### 3. Complementary Roles
 
