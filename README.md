@@ -8,7 +8,7 @@ There are three versions of pull requests that can be created.
 
 1. Amendment
 
-    An amendment that can be proposed by 4/5 of the Executive Committee or 2/3 of the total membership. It must be ratified by 3/4 of the total membership.
+    An amendment that can be proposed by 2/3 of the Executive Committee or 2/3 of the total membership. It must be ratified by 3/4 of the total membership.
     
 2. Bylaw
 
@@ -24,4 +24,4 @@ Only the **markdown files** should be changed when making changes to the Constit
 
 Releases and tags mark the ratification of an amendment to the Constitution or Bylaws.
 
-Tags should be prefixed with a 'v' with the first number referring to the Constitution verision, the second number referring to the Constitution amendment number, and the third number referring to the Bylaws amendment number.
+Tags should be prefixed with a 'v' and numbers separated with a period with the first number referring to the Constitution verision, the second number referring to the Constitution amendment number, and the third number referring to the Bylaws amendment number. (e.g. `v2.1.0`)
