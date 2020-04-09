@@ -4,13 +4,17 @@ The documents [`Current_Constitution.md`](Current_Constitution.md) and [`Current
 
 ## Pull Requests
 
-There are two versions of pull requests that can be created.
+There are three versions of pull requests that can be created.
 
 1. Amendment
 
     An amendment that can be proposed by 4/5 of the Executive Committee or 2/3 of the total membership. It must be ratified by 3/4 of the total membership.
+    
+2. Bylaw
 
-2. Feature
+    A two-thirds majority of the Executive Committee is necessary to enact a bylaw.
+
+3. Feature
 
     This is any changes that does not modify the contents of the Constitution or Bylaws.
 
