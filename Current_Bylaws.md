@@ -8,7 +8,7 @@ Last Amended: April 25, 2020
 
 ### 0. Town Hall
 
-1. Prior to collecting nominations for all executive roles, there should be a general meeting dedicated to reflection, concerns, and prospective changes in a town hall format with the following procedures.
+1. Prior to collecting nomasdfasdfasdfinations for all executive roles, there should be a general meeting dedicated to reflection, concerns, and prospective changes in a town hall format with the following procedures.
 2. Executive Committee gives a reflection of their semester goals and what they have achieved. These reflections are not intended to be a mark of whether or not they were successful but rather a candid explanation of what they were able to do in the role. All reflections will be made public and maintained for future semesters to see.
 3. Following the reflection, there will be a club-wide discussion regarding the state of Blueprint, general concerns, and potential directions for future semesters.
 
